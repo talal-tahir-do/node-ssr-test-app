@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('/', (req, res) => {
   console.log(
-    '[node-ssr-test-app] Main page hit — staging log marker: orange-mango-bicycle-428123',
+    '[node-ssr-test-app] Main page hit — staging log marker: orange-mango-bicycle-4281234',
     { path: req.path, ip: req.ip }
   );
   res.render('index', {
